@@ -2,3 +2,7 @@
 // noice
 // well well well
 // damn
+
+function lazy() {
+    return alert('Lazy :3')
+}
