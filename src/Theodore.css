@@ -63,6 +63,12 @@ ul {
   transform: scale(1.3);
   color: #b9b9b9;
 }
+footer {
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
 
 /* Nav Bar OwO <3 */
 
