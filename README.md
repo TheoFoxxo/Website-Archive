@@ -1,5 +1,5 @@
 # Website
-- Should i get a domain?
+- Should i get a domain? (i did :cry:)
 - Idk what to add here soooooo
 - i just...
 - BANAN
