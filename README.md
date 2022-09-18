@@ -6,3 +6,5 @@
 - cutie
 - fontawesome cool
 - lol
+- paup
+- alex
