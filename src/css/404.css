@@ -7,14 +7,14 @@ body {
 }
 
 .box {
-    width: 450px;
-    background: rgba(0, 0, 0, 0.4);
-    text-align: center;
-    margin: auto;
-    margin-top: 5%;
-    color: white;
-    font-family: "Century Gothic", sans-serif;
-    border-radius: 8px;
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  border-radius: 8px;
 }
 
 .nopage {
