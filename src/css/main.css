@@ -14,7 +14,7 @@ body {
   margin-top: 5%;
   color: white;
   font-family: "Century Gothic", sans-serif;
-  border-radius: 15%;
+  border-radius: 8px;
 }
 .nopage{
   padding: 40px;
@@ -68,6 +68,12 @@ footer {
   font-family: "Century Gothic", sans-serif;
   color: #fff;
   font-size: 40px;
+}
+@media screen and (orientation: portrait) {
+  .box {
+    width: 480px;
+    height: 640px;
+  }
 }
 
 /* Nav Bar OwO <3 */
@@ -131,4 +137,26 @@ button a{
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* Cuties stuff */
+
+.cutie{
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  border-radius: 15%;
+  font-size: 40px;
+}
+.cutie h5{
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  border-radius: 15%;
+  font-size: 40px;
+}
+
+.cutie img {
+  border-radius: 50%;
 }
