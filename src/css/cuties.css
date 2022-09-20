@@ -5,6 +5,17 @@ body {
   background-size: cover;
   overflow-x: hidden;
 }
+.box {
+  width: 950px;
+  height: auto;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  border-radius: 8px;
+}
 .cutie {
   text-align: center;
   margin: auto;
