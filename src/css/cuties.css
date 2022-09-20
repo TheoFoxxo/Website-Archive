@@ -26,7 +26,7 @@ body {
 }
 .box {
   width: 950px; 
-  height: auto;
+  height: 800px;
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
   margin: auto;
@@ -34,6 +34,12 @@ body {
   color: white;
   font-family: "Century Gothic", sans-serif;
   border-radius: 8px;
+}
+p{
+  font-size: 40px;
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  color: #fff;
 }
 
 nav {
