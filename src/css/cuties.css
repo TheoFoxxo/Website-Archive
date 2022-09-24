@@ -4,6 +4,7 @@ body {
   background: #eb7c22 no-repeat;
   background-size: cover;
   overflow-x: hidden;
+  font-family: "Century Gothic", sans-serif;
 }
 .cutie {
   text-align: center;
@@ -24,7 +25,7 @@ body {
 .cutie img {
   border-radius: 50%;
 }
-.box {
+/* .box {
   width: 950px; 
   height: 800px;
   background: rgba(0, 0, 0, 0.4);
@@ -34,9 +35,51 @@ body {
   color: white;
   font-family: "Century Gothic", sans-serif;
   border-radius: 8px;
+} */
+.box {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  border-radius: 8px;
+  float: center;
 }
-p{
+.owo {
+  display: block;
+  width: 5px;
+  height: 50px;
+  border-bottom: solid #fff 5px;
+  float: none;
+  text-align: center;
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  font-family: "Century Gothic", sans-serif;
+}
+.box h1 {
   font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: "Century Gothic", sans-serif;
+}
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+
+p{
+  font-size: 60px;
   text-align: center;
   font-family: "Century Gothic", sans-serif;
   color: #fff;
