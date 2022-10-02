@@ -1,4 +1,14 @@
-# Website
+# TheodoreTheFox.ml
+
+### Install Typescript:
+```
+npm install -g typescript
+```
+
+---
+
+# Notes
+
 - Should i get a domain? (i did :cry:)
 - Idk what to add here soooooo
 - i just...
@@ -10,3 +20,11 @@
 - alex
 - lol
 - Funny
+
+---
+
+# Images
+![Web1](https://i.imgur.com/kmQLzru.png)
+
+---
+
