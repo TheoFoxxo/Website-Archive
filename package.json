@@ -1,0 +1,23 @@
+{
+  "name": "theodorethefox.ml",
+  "version": "9.8",
+  "description": "very amusing website. :D",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fox-Developments/theodorethefox.ml.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fox-Developments/theodorethefox.ml/issues"
+  },
+  "homepage": "https://github.com/Fox-Developments/theodorethefox.ml#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
