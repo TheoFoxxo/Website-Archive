@@ -8,8 +8,7 @@ npm install -g typescript
 ---
 
 # Images
-![Web1](https://i.imgur.com/kmQLzru.png)
-
+![](https://raw.githubusercontent.com/Fox-Developments/Images.theodorethefox.ml/main/Web1.png)
 ---
 
 # Notes
