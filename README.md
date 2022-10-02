@@ -9,3 +9,4 @@
 - paup
 - alex
 - lol
+- Funny
