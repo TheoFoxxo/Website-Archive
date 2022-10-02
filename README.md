@@ -7,6 +7,11 @@ npm install -g typescript
 
 ---
 
+# Images
+![Web1](https://i.imgur.com/kmQLzru.png)
+
+---
+
 # Notes
 
 - Should i get a domain? (i did :cry:)
@@ -20,11 +25,6 @@ npm install -g typescript
 - alex
 - lol
 - Funny
-
----
-
-# Images
-![Web1](https://i.imgur.com/kmQLzru.png)
 
 ---
 
