@@ -1,5 +1,5 @@
 "use strict";
-// not the best way but im dumb
+// not the best way but im Lazy
 // Paup
 document.getElementById('Paup').setAttribute('src', 'https://cdn.discordapp.com/avatars/491492268793004035/a0795e08682359a3f80502ac56b1fd20.png?size=1024&quality=lossless');
 // Alex
