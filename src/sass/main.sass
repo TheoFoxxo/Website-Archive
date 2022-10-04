@@ -1,0 +1,61 @@
+body
+  margin: 0
+  padding: 0
+  background: #eb7c22 no-repeat
+  background-size: cover
+  overflow-x: hidden
+
+.box
+  width: 450px
+  background: rgba(0, 0, 0, 0.4)
+  padding: 40px
+  text-align: center
+  margin: auto
+  margin-top: 5%
+  color: white
+  font-family: "Century Gothic", sans-serif
+  border-radius: 8px
+
+.box-img
+  border-radius: 50%
+  width: 200px
+  height: 200px
+
+.box
+  h1
+    font-size: 40px
+    letter-spacing: 4px
+    font-weight: 100
+
+  h5
+    font-size: 20px
+    letter-spacing: 3px
+    font-weight: 100
+
+ul
+  margin: 0
+  padding: 0
+
+.box li
+  display: inline-block
+  margin: 6px
+  list-style: none
+
+  a
+    color: white
+    text-decoration: none
+    font-size: 60px
+    transition: all ease-in-out 250ms
+
+    &:hover
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff
+      transform: scale(1.3)
+      color: #b9b9b9
+
+@media screen and (orientation: portrait)
+  .box
+    width: 480px
+
+@media screen and (orientation: landscape)
+  .box
+    width: 480px

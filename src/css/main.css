@@ -5,6 +5,7 @@ body {
   background-size: cover;
   overflow-x: hidden;
 }
+
 .box {
   width: 450px;
   background: rgba(0, 0, 0, 0.4);
@@ -16,22 +17,13 @@ body {
   font-family: "Century Gothic", sans-serif;
   border-radius: 8px;
 }
-.nopage {
-  padding: 40px;
-  text-align: center;
-  margin: auto;
-  margin-top: 5%;
-  color: white;
-  font-family: "Century Gothic", sans-serif;
-  border-radius: 15%;
-  font-size: 40px;
-}
 
 .box-img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
 }
+
 .box h1 {
   font-size: 40px;
   letter-spacing: 4px;
@@ -47,6 +39,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 .box li {
   display: inline-block;
   margin: 6px;
@@ -59,86 +52,18 @@ ul {
   transition: all ease-in-out 250ms;
 }
 .box li a:hover {
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
-    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
   transform: scale(1.3);
   color: #b9b9b9;
 }
-footer {
-  text-align: center;
-  font-family: "Century Gothic", sans-serif;
-  color: #fff;
-  font-size: 40px;
-}
+
 @media screen and (orientation: portrait) {
   .box {
     width: 480px;
-    /* height: 640px; */
   }
 }
-
-/* Nav Bar OwO <3 */
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 25px;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-family: "Century Gothic", sans-serif;
-}
-.logo {
-  color: white;
-  font-size: 38px;
-  font-family: "Century Gothic", sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-}
-.logo:hover {
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
-    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
-  font-family: "Century Gothic", sans-serif;
-  transition: 0.5s;
-}
-nav ul li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px 20px;
-}
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 21px;
-  font-weight: bold;
-  font-family: "Century Gothic", sans-serif;
-}
-nav ul li a:hover {
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
-    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
-  font-family: "Century Gothic", sans-serif;
-  transition: 0.3s;
-}
-button {
-  border: none;
-  background: #9b4c0b;
-  padding: 12px 30px;
-  border-radius: 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 29px;
-  transition: 0.4s;
-  font-family: "Century Gothic", sans-serif;
-}
-button:hover {
-  transform: scale(1.3);
-  font-family: "Century Gothic", sans-serif;
-  cursor: pointer;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff,
-    0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
-}
-button a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+@media screen and (orientation: landscape) {
+  .box {
+    width: 480px;
+  }
 }
