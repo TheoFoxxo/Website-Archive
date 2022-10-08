@@ -37,6 +37,7 @@ nav ul li a:hover {
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
   font-family: "Century Gothic", sans-serif;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 button {
