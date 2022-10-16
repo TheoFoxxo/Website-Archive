@@ -9,4 +9,4 @@ RewriteCond %{HTTP_HOST} ^www.theodorethefox.ml [NC]
 RewriteRule ^(.*)$ $1.html [NC,L]
 RewriteRule ^(.*)$ http://www.theodorethefox.ml/$1 [L,R=301,NC]
 
-DirectoryIndex home.html
+DirectoryIndex index.html
