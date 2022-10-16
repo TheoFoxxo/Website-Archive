@@ -6,7 +6,7 @@ body
   overflow-x: hidden
   font-family: "Century Gothic", sans-serif
 
-.box
+div.box
   width: 450px
   background: rgba(0, 0, 0, 0.4)
   padding: 40px
@@ -18,14 +18,25 @@ body
   font-family: "Century Gothic", sans-serif
   border-radius: 8px
   float: left
+// .box
+//   width: 450px
+//   background: rgba(0, 0, 0, 0.4)
+//   padding: 40px
+//   text-align: center
+//   margin: auto
+//   margin-top: 5%
+//   margin-bottom: 10%
+//   color: white
+//   font-family: "Century Gothic", sans-serif
+//   border-radius: 8px
 
 #Right
-  float: right
-  margin-right: 300px
+   float: right
+   margin-right: 300px
 
 #Left
-  float: left
-  margin-left: 300px
+   float: left
+   margin-left: 300px
 
 .box-img
   border-radius: 50%
@@ -55,5 +66,23 @@ p
   display: block
   width: 320px
   height: 50px
-  border-bottom: solid #fff 7px
+  border-bottom: solid #5e2a00 7px
   margin: auto
+
+.owos
+  display: block
+  width: 620px
+  height: 50px
+  border-bottom: solid #5e2a00 7px
+  margin: auto
+
+@media screen and (orientation: portrait)
+  .box
+    width: 280px
+    height: 480px
+
+@media screen and (orientation: landscape)
+  .box
+    float: none
+   
+    
