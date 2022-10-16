@@ -4,7 +4,6 @@
 ```
 npm install -g typescript
 ```
-
 ---
 
 # Images
