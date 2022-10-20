@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap')
 body
   margin: 0
   padding: 0
-  background-image: linear-gradient(#eb7c22, #ff9f51)
+  background: #eb7c22 no-repeat
   background-size: cover
   overflow-x: hidden
-  font-family: "Century Gothic", sans-serif
+  font-family: 'Poppins', sans-serif
 
 div.box
   width: 450px
@@ -15,7 +16,7 @@ div.box
   margin-top: 5%
   margin-bottom: 10%
   color: white
-  font-family: "Century Gothic", sans-serif
+  font-family: 'Poppins', sans-serif
   border-radius: 8px
   float: left
 // .box
@@ -32,57 +33,74 @@ div.box
 
 #Right
    float: right
-   margin-right: 300px
+   margin-right: 420px
 
 #Left
    float: left
-   margin-left: 300px
+   margin-left: 420px
 
 .box-img
   border-radius: 50%
   width: 200px
   height: 200px
-  font-family: "Century Gothic", sans-serif
+  font-family: 'Poppins', sans-serif
 
 .box
   h1
     font-size: 40px
     font-weight: 100
-    font-family: "Century Gothic", sans-serif
+    font-family: 'Poppins', sans-serif
 
   h5
     font-size: 20px
     letter-spacing: 3px
     font-weight: 100
-    font-family: "Century Gothic", sans-serif
+    font-family: 'Poppins', sans-serif
 
 p
   font-size: 60px
   text-align: center
-  font-family: "Century Gothic", sans-serif
+  font-family: 'Poppins', sans-serif
   color: #fff
+  text-transform: capitalize
 
 .owo
+  // display: block
+  // width: 320px
+  // height: 50px
+  // border-bottom: solid #5e2a00 7px
+  // margin: auto
+  content: ""
+  height: 5px
+  width: 255px
+  background-color: #fff
   display: block
-  width: 320px
-  height: 50px
-  border-bottom: solid #5e2a00 7px
   margin: auto
 
 .owos
-  display: block
-  width: 620px
-  height: 50px
-  border-bottom: solid #5e2a00 7px
-  margin: auto
-
-@media screen and (orientation: portrait)
-  .box
+ content: ""
+ height: 50px
+ width: 700px
+ border-bottom: solid #fff 9px
+ display: block
+ margin: auto
     width: 280px
     height: 480px
 
-@media screen and (orientation: landscape)
+@media screen and (orientation: portrait)//landscape
+  body
+    -webkit-backface-visibility: hidden
   .box
     float: none
+    
+  #Right
+    float: none
+    margin-left: 225px
+  #Left
+    float: none
+    margin-left: 225px
+    margin-top: -50px
+    position: fixed
+    
    
     
