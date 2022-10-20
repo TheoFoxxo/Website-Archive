@@ -62,6 +62,8 @@ ul {
 
 @media screen and (orientation: portrait) {
   .box {
+    margin-top: 240px;
+    transform: scale(1.5);
     width: 380px;
     height: 520px;
   }

@@ -45,6 +45,12 @@ div.box
   height: 200px
   font-family: 'Poppins', sans-serif
 
+.center
+  display: block
+  margin-left: auto
+  margin-right: auto
+  text-align: center
+
 .box
   h1
     font-size: 40px
@@ -86,6 +92,17 @@ p
  margin: auto
     width: 280px
     height: 480px
+
+@media screen and (orientation: landscape)
+  .box
+    float: none
+  #Right
+    float: none
+    margin-left: 645px
+  #Left
+    float: none
+    margin-left: 645px
+    margin-top: -50px
 
 @media screen and (orientation: portrait)//landscape
   body
