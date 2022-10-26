@@ -1,5 +1,5 @@
 "use strict";
-fetch('./src/html/nav.html')
+fetch('/./src/html/nav.html')
     .then(function (res) { return res.text(); })
     .then(function (text) {
     var _a;
