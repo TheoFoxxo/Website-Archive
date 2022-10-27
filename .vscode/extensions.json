@@ -1,8 +1,5 @@
 {
     "recommendations": [
-        "leonardssh.vscord",
-        "glenn2223.live-sass",
-        "ms-vscode.vscode-typescript-next"
-        
+        "leonardssh.vscord"
     ]
 }
