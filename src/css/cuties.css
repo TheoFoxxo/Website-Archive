@@ -82,8 +82,6 @@ p {
   border-bottom: solid #fff 9px;
   display: block;
   margin: auto;
-  margin-width: 280px;
-  margin-height: 480px;
 }
 
 @media screen and (orientation: landscape) {
@@ -92,12 +90,14 @@ p {
   }
   #Right {
     float: none;
-    margin-left: 645px;
+    margin-left: auto;
+    margin-right: auto;
   }
   #Left {
     float: none;
-    margin-left: 645px;
-    margin-top: -50px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (orientation: portrait) {

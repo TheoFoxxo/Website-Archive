@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteCond %{HTTP_HOST} ^www.theodorethefox.ml [NC]
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+RewriteRule ^(.*)$ http://www.theodorethefox.ml/$1 [L,R=301,NC]
+
+DirectoryIndex index.html 

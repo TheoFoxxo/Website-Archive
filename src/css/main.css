@@ -25,7 +25,7 @@ body {
 
 .box-img {
   border: 8px solid #fff;
-  border-radius: 50%;
+  border-radius: 5%;
   width: 200px;
   height: 200px;
 }
@@ -65,7 +65,7 @@ ul {
     margin-top: 240px;
     transform: scale(1.5);
     width: 380px;
-    height: 520px;
+    height: 620px;
   }
 }
 @media screen and (orientation: landscape) {
